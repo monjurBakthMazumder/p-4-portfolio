@@ -12,6 +12,7 @@ font-size: 20px;
 font-weight: 700;
 border: none;
 padding: 18px 35px;
+cursor: pointer;
 }
 
 /* start nav     */
@@ -19,7 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px 50px 70px;
+    padding: 50px 200px;
 }
 nav > h1{
     color: #181818;
@@ -43,4 +44,51 @@ nav a{
 font-family: Open Sans;
 font-size: 20px;
 font-weight: 400;
+}
+/* header start */
+header{
+    background-color: #FFF8F3;
+}
+.header{
+    margin-left: 30px;
+    background-image:url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:top left, right bottom ;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+}
+.header-container > img{
+    width: 584px;
+    padding-right: 30px;
+}
+.header-intro{
+    color: v#474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.header-title{
+    color:  #181818;
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.header-description{
+    color:  #757575;
+    width: 585px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 50px;
+}
+.header-contact-btn{
+    background-color: transparent;
+    border-radius: 5px;
+border: 1px solid #FD6E0A;
+color: #FD6E0A;
 }
