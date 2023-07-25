@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 .hide{
     display: none;
@@ -128,6 +129,10 @@ main{
     justify-content: space-between;
 }
 /* what i do start  */
+.what-i-d >p{
+    width: 80%;
+    margin: 0 auto;
+}
 .what-i-d-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -138,6 +143,14 @@ main{
     background-color: #FFF;
     box-shadow: 0px 0px 5px 2px gray;
     padding: 30px;
+}
+
+.what-i-d i{
+    background-color: #FD6E0A;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
 }
 .what-i-d-title{
     color:  #181818;
@@ -154,7 +167,7 @@ main{
 }
 /* summary start  */
 .summary{
-    margin-top: 130px;
+    margin: 130px 0;
 }
 .summary-col{
     display: flex;
@@ -248,7 +261,7 @@ footer input, footer textarea{
     .section-description{
         font-size: 14px;
         line-height: normal;
-        padding: 15px 0px;
+        padding: 20px 0px;
     }
     nav{
         padding: 10px 0;
@@ -295,6 +308,7 @@ footer input, footer textarea{
     }
     .about{
         margin: 50px 0px;
+        padding: 5% 10%;
     }
     .about-item-container{
         display: grid;
@@ -305,7 +319,7 @@ footer input, footer textarea{
         grid-template-columns: 1fr;
     }
     .summary{
-        margin-top: 50px;
+        margin: 50px 0;
     }
     .summary-col{
         display: block;
@@ -331,6 +345,9 @@ footer input, footer textarea{
         margin-left: 0;
     }
 }
+
+
+
 
 /* tablet style start */
 @media screen and (min-width: 641px) and (max-width: 990px){
@@ -368,7 +385,7 @@ footer input, footer textarea{
         grid-template-columns: repeat(2, 1fr);
     }
     .summary{
-        margin-top: 100px;
+        margin: 100px 0;
     }
     footer{
         display: block;
